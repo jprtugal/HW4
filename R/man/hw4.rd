@@ -34,9 +34,9 @@ works only with numeric data, vectors of equal length, initial population can be
 
 	x<-seq(0,length(mx),1)
 
-	mx<-ahmd$mx[,1];mx#crude death rate
+	ex<-ahmd$ex[,1];mx#crude death rate
 
 	dx<-ahmd$Dx[,1];dx#death count
 
-	myLT(x,mx,dx, initpop = 100000)
+	myLT(x,ex,dx, initpop = 100000)
 }
