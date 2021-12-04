@@ -1,0 +1,9 @@
+Package: HW4
+Title: Life Table Generation with Plot
+Version: 0.0.0.9000
+Authors@R: c(person("Jorge Portugal", "Developer", role = c("aut", "cre"),email = "jprtugal@umich.edu"))
+Description: This package improves upon the existing LifeTable Function from the MortalityLaws package. What it does is generate both a life table and a survivorship curve, given only  few vectors. The input parameters are x, which is time (most oven measured by peoples' ages, but can also be a vector of continuous years), Dx, which is the total number of incidences (deaths) occurring in that time interval, and Dx, the mortality rate for that time interval.
+License: `use_mit_license()`
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
